@@ -1,9 +1,9 @@
 {
 	"$schema": "https://schemas.wp.org/trunk/block.json",
 	"apiVersion": 3,
-	"name": "create-block/product-gallery",
+	"name": "create-block/ailb-product-gallery",
 	"version": "0.1.0",
-	"title": "Product Gallery",
+	"title": "AILB Product Gallery",
 	"category": "widgets",
 	"icon": "smiley",
 	"description": "Example block scaffolded with Create Block tool.",
@@ -20,9 +20,9 @@
 			}
 		}
 	},
-	"textdomain": "product-gallery",
+	"textdomain": "ailb-product-gallery",
 	"editorScript": "file:./index.js",
 	"editorStyle": "file:./index.css",
 	"style": "file:./style-index.css",
-	"render": "file:./product-gallery-render.php"
+	"render": "file:./ailb-product-gallery-render.php"
 }

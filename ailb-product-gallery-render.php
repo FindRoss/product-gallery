@@ -1,6 +1,6 @@
 <?php 
 
-function render_dynamic_product_gallery_block($attributes) {
+function render_dynamic_ailb_product_gallery_block($attributes) {
   $post_ids = isset($attributes['products']) ? array_map('intval', $attributes['products']) : [];
 
   if (empty($post_ids)) return '';
