@@ -1,7 +1,7 @@
 <?php
 /**
  * Plugin Name:       AILB Product Gallery
- * Description:       Example block scaffolded with Create Block tool.
+ * Description:       Not another product gallery block.
  * Version:           0.1.0
  * Requires at least: 6.7
  * Requires PHP:      7.4
