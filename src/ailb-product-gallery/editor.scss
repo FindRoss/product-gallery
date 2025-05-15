@@ -4,6 +4,19 @@
  * Replace them with your own styles or remove the file completely.
  */
 
-// .wp-block-create-block-product-gallery {
-// 	border: 1px dotted #f00;
-// }
+.product-gallery {
+
+    &__controls {
+        margin-bottom: 1rem;
+        padding-bottom: 1rem; 
+        border-bottom: 3px dotted #EAEAEA;
+    }
+
+    .product-item img {
+        width: 100%;
+        height: auto;
+    }
+}
+
+
+
