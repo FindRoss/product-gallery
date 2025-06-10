@@ -1,28 +1,28 @@
 {
-  "$schema": "https://schemas.wp.org/trunk/block.json",
-  "apiVersion": 3,
-  "name": "create-block/ailb-product-gallery",
-  "version": "0.1.0",
-  "title": "AILB Product Gallery",
-  "category": "widgets",
-  "icon": "smiley",
-  "description": "Example block scaffolded with Create Block tool.",
-  "example": {},
-  "supports": {
-    "html": false
-  },
-  "attributes": {
-    "products": {
-      "type": "array",
-      "default": [],
-      "items": {
-        "type": "number"
-      }
-    }
-  },
-  "textdomain": "ailb-product-gallery",
-  "editorScript": "file:./index.js",
-  "editorStyle": "file:./index.css",
-  "style": "file:./style-index.css",
-  "render": "file:./ailb-product-gallery-render.php"
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 3,
+	"name": "create-block/ailb-product-gallery",
+	"version": "1.1.1",
+	"title": "AILB Product Gallery",
+	"category": "widgets",
+	"icon": "smiley",
+	"description": "A block created with @wordpress/scripts to display Items on AI Luxury Boutique.",
+	"example": {},
+	"supports": {
+		"html": false
+	},
+	"attributes": {
+		"products": {
+			"type": "array",
+			"default": [],
+			"items": {
+				"type": "number"
+			}
+		}
+	},
+	"textdomain": "ailb-product-gallery",
+	"editorScript": "file:./build/ailb-product-gallery/index.js",
+	"editorStyle": "file:./build/ailb-product-gallery/index.css",
+	"style": "file:./build/ailb-product-gallery/style-index.css",
+	"render": "file:./ailb-product-gallery-render.php"
 }

@@ -1,11 +1,11 @@
 <?php
 /**
  * Plugin Name:       AILB Product Gallery
- * Description:       Not another product gallery block.
- * Version:           0.1.0
+ * Description:       A custom plugin created with @wordpress/scripts to display Items on AI Luxury Boutique
+ * Version:           1.1.1
  * Requires at least: 6.7
  * Requires PHP:      7.4
- * Author:            The WordPress Contributors
+ * Author:            Ross Findlay & Sadok Gable
  * License:           GPL-2.0-or-later
  * License URI:       https://www.gnu.org/licenses/gpl-2.0.html
  * Text Domain:       ailb-product-gallery

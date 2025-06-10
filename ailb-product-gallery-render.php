@@ -16,7 +16,7 @@ function render_dynamic_ailb_product_gallery_block($attributes) {
 
   ob_start(); ?>
 
-  <div class="wp-block-create-block-product-gallery">
+  <div class="wp-block-create-block-ailb-product-gallery">
     <div class="product-gallery">
       <div class="product-gallery__content">
         <?php foreach ($posts as $post) : 
@@ -28,7 +28,7 @@ function render_dynamic_ailb_product_gallery_block($attributes) {
           <div class="product-item">
             <img src="<?php echo esc_url($image); ?>" alt="<?php echo esc_attr($title); ?>" />
             <h2 class="title"><?php echo $title; ?></h2>
-            <a href="#">Buy on Amazon</a>
+            <!-- <a href="#">Buy on Amazon</a> -->
           </div>
         <?php endforeach; ?>
       </div>

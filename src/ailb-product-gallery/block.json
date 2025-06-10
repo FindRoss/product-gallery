@@ -6,7 +6,7 @@
 	"title": "AILB Product Gallery",
 	"category": "widgets",
 	"icon": "smiley",
-	"description": "Example block scaffolded with Create Block tool.",
+	"description": "A block created with @wordpress/scripts to display Items on AI Luxury Boutique.",
 	"example": {},
 	"supports": {
 		"html": false

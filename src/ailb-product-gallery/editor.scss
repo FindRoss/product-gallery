@@ -4,17 +4,24 @@
  * Replace them with your own styles or remove the file completely.
  */
 
-.product-gallery {
+.wp-block-create-block-ailb-product-gallery {
+    .product-gallery {
+        &__controls {
+            margin-bottom: 1rem;
+            padding-bottom: 1rem; 
+            border-bottom: 3px dotted #e2e8f0;
+        }
 
-    &__controls {
-        margin-bottom: 1rem;
-        padding-bottom: 1rem; 
-        border-bottom: 3px dotted #EAEAEA;
-    }
-
-    .product-item img {
-        width: 100%;
-        height: auto;
+        &__content {
+            .product-item {
+                border: 1px solid #e2e8f0;
+                
+                img {
+                    width: 100%;
+                    height: auto;
+                }
+            }  
+        }
     }
 }
 
